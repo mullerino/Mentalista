@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Imersão Dev - Aula 3</title>
+            <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+            <script src="scripts.js" defer></script>
+        </head>
+
+        <body>
+            <div class="container"> 
+                <h1 class="page-title">Mentalista</h1>
+                <h2 class="page-subtitle">Descubra o número certo entre 0 a 10.</h2>
+                
+                <div class="bx1">
+                    <label><strong>Digite o número</strong></label>
+                    <input type="number" name="valor" id="valorRec" required><br>
+                    <button type="submit" onclick="Mudar()" id="botChange">Mudar o número</button>
+                    <button type="submit" id="botGuess" value = "0" onclick="Adivinhar()" >Adivinhar</button>
+                </div>
+
+                <div class="bx3">
+                    <label class="lresult">Resultado</label>
+                    <h3 id="resultado"><span></span></h3><br>
+                </div>
+
+                    <div class="bx2">
+                        <p class="tentativas">Tentativas restantes:
+                        <label id="tents"></label></p>
+                    </div>
+                </div>
+
+            <nav>
+                <a href="https://imersao.dev/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo-Imd" alt=""></a>
+
+                <a href="https://www.alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="alura-logo"  alt=""></a>    
+            </nav>
+
+        </body>
+    </html>

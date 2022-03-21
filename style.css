@@ -1,0 +1,94 @@
+body{
+    min-height: 580px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(60deg,#e66465, #9198e5);
+}
+
+.container{
+    text-align: center;
+}
+
+
+.page-title{
+    font-family: arial;
+    text-align: center;
+    color: linear-gradient(#e66465, #9198e5);
+}
+
+.page-subtitle{
+    font-family: minhafonte;
+    font-size: 22px;
+}
+
+.bx1{
+    border: solid black 3px;
+    background-color: rgb(172, 140, 61);
+    width: 35%;
+    height: 65px;
+    margin-top: 45px;
+    margin-left: 31%;
+    padding: 15px;
+}
+
+.bx2{
+    font-family: minhafonte;
+    border: solid black 2px;
+    background-color: #53cea5;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+.bx3{
+    font-family: minhafonte;
+    color:#fcfbfa;
+    border: solid 2px rgb(247, 232, 232);
+    background: linear-gradient(120deg,#28289c 40%,white);
+    width: 220px;
+    height: 100px;
+    width: 28%;
+    margin-left: 35.8%;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+#resultado{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: minhafonte;
+    font-size: 20px;
+}
+
+.lresult{
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+#tentativas{
+    font-size: 10px;
+}
+
+#botGuess{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo-Imd{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    top: 7px;
+    
+}
+.alura-logo{
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    top: 8px;
+}
+
+@font-face{
+    font-family: 'minhafonte';
+    src: url("assets/fonts/NunitoSans-Bold.ttf");               
+}
